@@ -63,3 +63,11 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .profile-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
